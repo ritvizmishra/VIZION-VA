@@ -114,9 +114,8 @@ def processCommand(command):
         speak("Let me search that for you.")
         fallback_query_handler(command)
         
-# prevent unintended code execution.
-if __name__ == "__main__":
-    
+# main function
+def start_listening():
     # set up activation message for Vizion
     speak("Waking up Vision...") 
     while True:
