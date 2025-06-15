@@ -32,7 +32,7 @@ except:
     pass
 
 # Title
-title = tk.Label(main_frame, text="Your Vizion Assistant", font=("Helvetica", 24, "bold"), fg="#4C74CB", bg="#121212")
+title = tk.Label(main_frame, text="VIZION ASSISTANT", font=("Helvetica", 24, "bold"), fg="#4C74CB", bg="#121212")
 title.pack(pady=(10, 40))
 
 # Buttons
