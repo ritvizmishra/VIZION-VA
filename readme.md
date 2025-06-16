@@ -38,6 +38,7 @@
 
 - **NewsAPI** – [https://newsapi.org](https://newsapi.org)  
   Used to fetch top US news headlines. Replace your key in `vizion_backend.py`:
+  > Indian headlines are not available on NewsAPI.
   ```python
   newsapi = "your_api_key_here"
   ```
